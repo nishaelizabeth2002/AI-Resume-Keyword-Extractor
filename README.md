@@ -30,7 +30,9 @@ Port Availability (8000): netstat -ano | findstr :8000
 
 2.1. Project Acquisition
 Acquire the source code using one of the following methods:
+
 git clone https://github.com/nishaelizabeth2002/AI-Resume-Keyword-Extractor.git
+
 cd AI-Resume-Keyword-Extractor
 
 2.2  Virtual Environment Creation
@@ -59,6 +61,7 @@ uvicorn app.main:app --reload
 The interactive web interface and API documentation are accessible via the Swagger UI endpoint after successful server startup.
 Open the following URL in a web browser:
 👉 http://127.0.0.1:8000/docs
+
 
 
 

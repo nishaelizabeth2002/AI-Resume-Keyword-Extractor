@@ -39,6 +39,7 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk
 
 
 3. Application Execution
+
 3.1. API Server Startup
 Start the FastAPI application server using the Uvicorn web server. The --reload flag is optional but recommended for development.
 uvicorn app.main:app --reload
@@ -47,4 +48,5 @@ uvicorn app.main:app --reload
 The interactive web interface and API documentation are accessible via the Swagger UI endpoint after successful server startup.
 Open the following URL in a web browser:
 👉 http://127.0.0.1:8000/docs
+
 

@@ -1,4 +1,5 @@
 **AI Resume Keyword Extractor + Job Match Scorer: Deployment Guide**
+
 This document outlines the procedure for deploying and executing the local AI engine designed for resume text extraction, keyword identification, and job-resume match scoring utilizing Natural Language Processing (NLP) techniques.
 The application operates locally using Python and the FastAPI framework, requiring no external API keys or cloud service dependencies
 1. Prerequisites and System Requirements
@@ -46,3 +47,4 @@ uvicorn app.main:app --reload
 The interactive web interface and API documentation are accessible via the Swagger UI endpoint after successful server startup.
 Open the following URL in a web browser:
 👉 http://127.0.0.1:8000/docs
+

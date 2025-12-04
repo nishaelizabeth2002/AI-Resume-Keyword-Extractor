@@ -3,6 +3,7 @@
 This document outlines the procedure for deploying and executing the local AI engine designed for resume text extraction, keyword identification, and job-resume match scoring utilizing Natural Language Processing (NLP) techniques.
 The application operates locally using Python and the FastAPI framework, requiring no external API keys or cloud service dependencies
 1. Prerequisites and System Requirements
+
 1.1. Required Software and Environment
 Software Required:
 Python3.11.x 
@@ -17,6 +18,7 @@ Port Availability (8000): netstat -ano | findstr :8000
 
 
 2. Project Setup
+
 2.1. Project Acquisition
 Acquire the source code using one of the following methods:
 git clone https://github.com/nishaelizabeth2002/AI-Resume-Keyword-Extractor.git
@@ -48,5 +50,6 @@ uvicorn app.main:app --reload
 The interactive web interface and API documentation are accessible via the Swagger UI endpoint after successful server startup.
 Open the following URL in a web browser:
 👉 http://127.0.0.1:8000/docs
+
 
 

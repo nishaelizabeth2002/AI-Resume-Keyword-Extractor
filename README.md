@@ -13,12 +13,16 @@ pip
 
 Uvicorn
 
-Diagnostic Checks
+Diagnostic Checks:
 
 Before project execution, confirm the following system readiness checks.
+
 Python Installation: python --version
+
 pip Utility: pip --version
+
 Virtual Environment Module: python -m venv --help
+
 Port Availability (8000): netstat -ano | findstr :8000
 
 
@@ -55,6 +59,7 @@ uvicorn app.main:app --reload
 The interactive web interface and API documentation are accessible via the Swagger UI endpoint after successful server startup.
 Open the following URL in a web browser:
 👉 http://127.0.0.1:8000/docs
+
 
 
 
